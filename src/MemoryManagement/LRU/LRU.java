@@ -5,6 +5,11 @@ import CommonClass.Pair;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
+/**
+ * MemoryManagement
+ * Created by blaisewang on 2016/12/25.
+ */
+
 public class LRU {
     private ArrayList<Pair<Integer, Integer>> array = new ArrayList<>();
     private int capacity;

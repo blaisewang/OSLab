@@ -3,6 +3,10 @@ package FileSystem.GroupLink;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/**
+ * FileSystem
+ * Created by blaisewang on 2016/12/10.
+ */
 public class GroupLink {
     private static final int GROUP_MEMBER_SIZE = 3;
 

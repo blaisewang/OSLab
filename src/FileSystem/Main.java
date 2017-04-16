@@ -14,6 +14,9 @@ public class Main {
         System.out.println(hybridIndexFile.toString());
 
         GroupLink groupLink = new GroupLink(7);
+        groupLink.request(1);
+        groupLink.request(4);
+        System.out.println(groupLink.toString());
         groupLink.recycle(3);
         System.out.println(groupLink.toString());
     }

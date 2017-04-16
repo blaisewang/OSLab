@@ -1,5 +1,10 @@
 package CommonClass;
 
+/**
+ * CommonClass
+ * Created by blaisewang on 2016/7/7.
+ */
+
 public class Pair<A extends Comparable<A>, B> implements Comparable<Pair<A, B>> {
     public A first;
     public B second;

@@ -2,8 +2,12 @@ package BankersAlgorithm;
 
 import java.util.Arrays;
 
-class Banker {
+/**
+ * BankersAlgorithm
+ * Created by blaisewang on 2016/11/2.
+ */
 
+class Banker {
     private int[] available;
     private int[] request;
     private int[] safeSequence;

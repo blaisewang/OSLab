@@ -3,6 +3,11 @@ package MemoryManagement.Optimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * MemoryManagement
+ * Created by blaisewang on 2016/12/25.
+ */
+
 public class Optimal {
 
     private int[] pageNumber;
