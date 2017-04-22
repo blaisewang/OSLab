@@ -4,9 +4,7 @@ import MemoryManagement.LRU.LRU;
 import MemoryManagement.Optimal.Optimal;
 
 public class Main {
-
     public static void main(String[] args) {
-
         int testSequence[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1};
 
         LRU lru = new LRU(3);
